@@ -13,20 +13,16 @@
             "foreground": "#000",
             "leading_diamond": "",
             "style": "diamond",
-            "template": " {{ if .WSL }}WSL at {{ end }}{{ .Icon }}  ",
-            "type": "os"
+            "template": " 󰌢 {{ .HostName }} ",
+            "type": "session"
           },
           {
             "background": "p:trans-pink",
             "foreground": "#000",
             "powerline_symbol": "",
-            "properties": {
-              "folder_separator_icon": "/",
-              "style": "full"
-            },
             "style": "powerline",
-            "template": "  {{ .Path }} ",
-            "type": "path"
+            "template": "  {{ .UserName }} ",
+            "type": "session"
           },
           {
             "background": "#303030",
@@ -65,14 +61,14 @@
           {
             "foreground": "p:trans-blue",
             "style": "plain",
-            "template": "{{ .HostName }}  ",
-            "type": "session"
+            "template": " {{ if .WSL }}WSL at {{ end }}{{ .Icon }}   ",
+            "type": "os"
           },
           {
             "foreground": "p:trans-pink",
             "style": "plain",
-            "template": "{{ .UserName }}  ",
-            "type": "session"
+            "template": "{{ .Path }}  ",
+            "type": "path"
           },
           {
             "foreground": "#fff",
