@@ -1,15 +1,16 @@
 {
     "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
     "palette": {
-      "trans-blue": "#5BC3FA",
-      "trans-pink": "#F5A9B8"
+      "color1": "#5BC3FA",
+      "color2": "#F5A9B8",
+      "color3": "#FFF"
     },
     "blocks": [
       {
         "alignment": "left",
         "segments": [
           {
-            "background": "p:trans-blue",
+            "background": "p:color1",
             "foreground": "#000",
             "leading_diamond": "",
             "style": "diamond",
@@ -17,7 +18,7 @@
             "type": "session"
           },
           {
-            "background": "p:trans-pink",
+            "background": "p:color2",
             "foreground": "#000",
             "powerline_symbol": "",
             "style": "powerline",
@@ -44,7 +45,7 @@
             "type": "git"
           },
           {
-            "background": "#fff",
+            "background": "p:color3",
             "foreground": "#000",
             "style": "diamond",
             "template": "<#000>  </>{{ .CurrentDate | date .Format }}\u2800",
@@ -59,19 +60,19 @@
         "newline": true,
         "segments": [
           {
-            "foreground": "p:trans-blue",
+            "foreground": "p:color1",
             "style": "plain",
             "template": " {{ if .WSL }}WSL at {{ end }}{{ .Icon }}   ",
             "type": "os"
           },
           {
-            "foreground": "p:trans-pink",
+            "foreground": "p:color2",
             "style": "plain",
             "template": "{{ .Path }}  ",
             "type": "path"
           },
           {
-            "foreground": "#fff",
+            "foreground": "p:color3",
             "properties": {
               "mapped_shell_names": {
                 "pwsh": " ",
@@ -90,7 +91,7 @@
             "type": "root"
           },
           {
-            "foreground": "#fff",
+            "foreground": "p:color3",
             "style": "plain",
             "template": " ",
             "type": "text"
