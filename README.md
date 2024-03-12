@@ -2,7 +2,7 @@
 
 This repository contains themes for your terminal utilizing the colors in the various pride flags, applied through the power of the [Oh My Posh](https://ohmyposh.dev/) 👩‍💻 plugin by [Jan De Dobbeleer](https://github.com/sponsors/JanDeDobbeleer) [*et al.*](https://ohmyposh.dev/docs/contributors). Derived from the [`unicorn` 🦄 theme](https://github.com/JanDeDobbeleer/oh-my-posh/blob/main/themes/unicorn.omp.json).
 
-![Trans console theme](https://raw.githubusercontent.com/jessthespacer/lgbtq-ohmyposh-themes/main/sample-images/trans.png)
+![Trans console theme](https://raw.githubusercontent.com/jessthespacer/lgbtq-ohmyposh-themes/main/sample-images/sample-session.png)
 
 ## Installing Oh My Posh and Nerd Fonts
 
