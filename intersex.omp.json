@@ -1,9 +1,9 @@
 {
     "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
     "palette": {
-      "color1": "#FFD800",
-      "color2": "#7902AA",
-      "color2-light": "#9D03DC",
+      "color1": "#7902AA",
+      "color1-light": "#9D03DC",
+      "color2": "#FFD800",
       "color3": "#FFF"
     },
     "blocks": [
@@ -12,7 +12,7 @@
         "segments": [
           {
             "background": "p:color1",
-            "foreground": "#000",
+            "foreground": "#fff",
             "leading_diamond": "",
             "style": "diamond",
             "template": " 󰌢 {{ .HostName }} ",
@@ -20,7 +20,7 @@
           },
           {
             "background": "p:color2",
-            "foreground": "#fff",
+            "foreground": "#000",
             "powerline_symbol": "",
             "style": "powerline",
             "template": "  {{ .UserName }} ",
@@ -61,13 +61,13 @@
         "newline": true,
         "segments": [
           {
-            "foreground": "p:color1",
+            "foreground": "p:color1-light",
             "style": "plain",
             "template": " {{ if .WSL }}WSL at {{ end }}{{ .Icon }}   ",
             "type": "os"
           },
           {
-            "foreground": "p:color2-light",
+            "foreground": "p:color2",
             "style": "plain",
             "template": "{{ .Path }}  ",
             "type": "path"
