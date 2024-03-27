@@ -1,9 +1,12 @@
 {
     "$schema": "https://raw.githubusercontent.com/JanDeDobbeleer/oh-my-posh/main/themes/schema.json",
     "palette": {
-      "color1": "#FCF434",
-      "color2": "#FFF",
-      "color3": "#9C59D1"
+      "color1": "#FF0000",
+      "color2": "#FF8E00",
+      "color3": "#FFFF00",
+      "color4": "#00FF00",
+      "color5": "#008cff",
+      "color6": "#DB00DB"
     },
     "blocks": [
       {
@@ -46,7 +49,7 @@
           },
           {
             "background": "p:color3",
-            "foreground": "#fff",
+            "foreground": "#000",
             "properties": {
               "always_enabled": true
             },
@@ -63,19 +66,19 @@
         "newline": true,
         "segments": [
           {
-            "foreground": "p:color1",
+            "foreground": "p:color4",
             "style": "plain",
             "template": " {{ if .WSL }}WSL at {{ end }}{{ .Icon }}   ",
             "type": "os"
           },
           {
-            "foreground": "p:color2",
+            "foreground": "p:color5",
             "style": "plain",
             "template": "{{ .Path }}  ",
             "type": "path"
           },
           {
-            "foreground": "p:color3",
+            "foreground": "p:color6",
             "properties": {
               "mapped_shell_names": {
                 "pwsh": " ",
@@ -94,7 +97,7 @@
             "type": "root"
           },
           {
-            "foreground": "p:color3",
+            "foreground": "p:color6",
             "style": "plain",
             "template": " ",
             "type": "text"

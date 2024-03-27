@@ -48,10 +48,13 @@
           {
             "background": "p:color3",
             "foreground": "#fff",
+            "properties": {
+              "always_enabled": true
+            },
             "style": "diamond",
-            "template": "  </>{{ .CurrentDate | date .Format }}\u2800",
+            "template": "  </>{{ .FormattedMs }}\u2800",
             "trailing_diamond": "",
-            "type": "time"
+            "type": "executiontime"
           }
         ],
         "type": "prompt"
