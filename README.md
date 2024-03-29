@@ -14,7 +14,7 @@ To install Oh My Posh, follow the instructions in its documentation 📝, availa
 
 **Please note that these themes require [Nerd Fonts](https://www.nerdfonts.com/) to work properly 🤓!** You can use Oh My Posh to install the Nerd Font of your choice (I recommend `CaskaydiaCove`) using the instructions [here](https://ohmyposh.dev/docs/installation/fonts).
 
-Once Oh My Posh is installed, clone this repository to the directory of your choice, then follow the instructions [here](https://ohmyposh.dev/docs/installation/customize) to point Oh My Posh to your theme file of choice.
+Once Oh My Posh is installed, clone the `lgbtq-ohmyposh-themes` repository to the directory of your choice, then follow the instructions [here](https://ohmyposh.dev/docs/installation/customize) to point Oh My Posh to your theme file of choice.
 
 Browse Oh My Posh's built-in themes [here](https://ohmyposh.dev/docs/themes).
 
@@ -91,6 +91,10 @@ Root privileges are indicated by a 💅 glyph in front of the shell glyph.
 ### Pansexual
 
 ![Pansexual console theme](https://raw.githubusercontent.com/jessthespacer/lgbtq-ohmyposh-themes/main/sample-images/pansexual.png)
+
+### Pride
+
+![Pride console theme](https://raw.githubusercontent.com/jessthespacer/lgbtq-ohmyposh-themes/main/sample-images/pride.png)
 
 ### Trans
 
